@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Backend">
+      <UniqueIdentifier>{728b5407-82a4-4ae6-b698-8d120daeb3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Backend">
+      <UniqueIdentifier>{c86bab8f-e7b9-41f3-9291-4e4db33b9191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entry">
+      <UniqueIdentifier>{38261b68-3bd4-4cf7-8b84-a914e277b570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Entry">
+      <UniqueIdentifier>{5efa5c34-0579-4fe8-a6f0-ed8036872015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{9688a6b4-5496-4925-b842-e3464f98fa8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Utils">
+      <UniqueIdentifier>{9d85a771-4343-4200-ba99-b8f67023e2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Source Engine">
+      <UniqueIdentifier>{dff93b75-5960-401b-a319-48cf030e0c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Source Engine\Classes">
+      <UniqueIdentifier>{1e18d13e-0bc3-415c-a9d2-ce8d5ce8ad6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Engine">
+      <UniqueIdentifier>{10199cfe-7421-4ac4-84e3-df77ad0f9146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Features">
+      <UniqueIdentifier>{85c6cf30-3ed8-4e71-8f9a-831a399d4911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Features">
+      <UniqueIdentifier>{96a01b4f-7761-4efa-90c9-31a48e9e8135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu Framework">
+      <UniqueIdentifier>{1e0c6f39-12ba-4947-aae8-da3e8b94c0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Menu Framework">
+      <UniqueIdentifier>{020516fb-a482-4bbb-b4c9-52033b3b51c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{e8a7696a-c1e2-474a-a034-5cf8b5297e95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLLMain.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectiveDLLInjection.h">
+      <Filter>Header Files\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectiveLoader.h">
+      <Filter>Header Files\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscClasses.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscDef.h">
+      <Filter>Header Files\Source Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRecvProps.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files\Source Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClient.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files\Source Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrediction.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>Header Files\Source Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventManager.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Header Files\Source Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunctions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL Functions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHacks.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files\Menu Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_memory_editor.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsManager.h">
+      <Filter>Header Files\Menu Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>Resource Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Rage Aimbot.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Resource Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectiveLoader.cpp">
+      <Filter>Resource Files\Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Resource Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Resource Files\Source Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunctions.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL Functions.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHacks.cpp">
+      <Filter>Resource Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>Resource Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Resource Files\Menu Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsManager.cpp">
+      <Filter>Resource Files\Menu Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConVar.cpp">
+      <Filter>Resource Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Resource Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Resource Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Rage Aimbot.cpp">
+      <Filter>Resource Files\Features</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
